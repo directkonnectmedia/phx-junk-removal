@@ -1253,7 +1253,7 @@
  
 .hero-concrete-main-title {
   font-size: clamp(3rem, 10vw, 8rem);
-  text-shadow: 4px 4px 0px var(--hero-title-shadow, #9a3412);
+  text-shadow: 4px 4px 0px var(--hero-title-shadow, #f97316);
   margin-bottom: var(--spacing-md);
 }
  
@@ -1922,7 +1922,7 @@
   --qc-slate: #18181b;
   --qc-text: #ffffff;
   --qc-text-muted: #ffffff;
-  --hero-title-shadow: #9a3412;
+  --hero-title-shadow: #f97316;
   --qc-gallery-bg: #f5f5f5;
 }
 
@@ -2132,7 +2132,7 @@
   border-color: var(--qc-text);
 }
 
-/* ---------- OUR EXPERTISE ---------- */
+/* ---------- HOW WE WORK (expertise card layout) ---------- */
 .expertise-grid {
   background-color: var(--qc-charcoal);
 }
@@ -2163,23 +2163,6 @@
   color: var(--qc-text);
 }
 
-/* ---------- PROCESS ---------- */
-.process-section {
-  background-color: var(--qc-charcoal);
-}
-.process-heading {
-  color: var(--qc-text);
-}
-.process-step .section-subtitle {
-  color: var(--qc-red);
-}
-.process-step .section-content {
-  color: var(--qc-text);
-}
-.process-icon-wrapper {
-  color: var(--qc-red);
-}
-
 /* ---------- GALLERY ---------- */
 .gallery-preview {
   background-color: var(--qc-gallery-bg);
@@ -2190,8 +2173,26 @@
   display: inline-block;
   padding-bottom: 8px;
 }
-
-/* ---------- QUOTE WIZARD (revamp) ---------- */
+.gallery-item {
+  border-radius: 12px;
+  border: 3px solid var(--qc-red);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.gallery-item img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery-item-overlay,
+.gallery-item-caption {
+  display: none !important;
+}
+.gallery-scroller {
+  gap: 16px;
+  padding: 0 20px 24px;
+}
 .quote-wizard {
   background-color: var(--qc-gallery-bg);
   background-image: none;
@@ -2994,14 +2995,12 @@ video {
   .expertise-grid,
   .gallery-preview,
   .quote-wizard,
-  .process-section,
   .testimonials-section,
   .location-section {
     padding: 56px 0;
   }
   .expertise-container,
   .testimonials-container,
-  .process-container,
   .location-container {
     padding: 0 16px;
   }
@@ -3035,18 +3034,6 @@ video {
     flex: 0 0 88vw;
     height: 320px;
     scroll-snap-align: start;
-  }
-  /* Show captions tap-friendly on mobile (no hover) */
-  .gallery-item-overlay {
-    opacity: 1;
-    background: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.85) 100%);
-    align-items: flex-end;
-    justify-content: flex-start;
-    padding: 16px;
-  }
-  .gallery-item-caption {
-    transform: translateY(0);
-    font-size: 1rem;
   }
 
   /* QUOTE WIZARD */
@@ -3134,15 +3121,6 @@ video {
     width: 100%;
     padding: 14px 18px;
     min-height: 48px;
-  }
-
-  /* PROCESS — vertical */
-  .process-stepper {
-    flex-direction: column;
-    gap: 32px;
-  }
-  .process-step {
-    text-align: center;
   }
 
   /* TESTIMONIALS */

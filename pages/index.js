@@ -19,10 +19,10 @@ const Home = (props) => {
         <section id="home" className="hero-concrete">
           <div className="hero-concrete-bg">
             <video
-              src="https://videos.pexels.com/video-files/4135408/4135408-hd_1920_1080_30fps.mp4"
+              src="https://videos.pexels.com/video-files/8488114/8488114-uhd_2560_1440_30fps.mp4"
               loop={true}
               muted={true}
-              poster="https://images.pexels.com/videos/4135408/pictures/preview-0.jpg"
+              poster="https://images.pexels.com/videos/8488114/pictures/preview-0.jpg"
               autoPlay={true}
               playsInline={true}
               className="hero-concrete-video"
@@ -41,7 +41,7 @@ const Home = (props) => {
               </h1>
             </div>
             <p className="hero-concrete-sub hero-subtitle">
-              BUILT TO LAST. POURED WITH PRECISION. 100% DEDICATED TO CONCRETE.
+              FAST, RELIABLE JUNK REMOVAL — WE HAUL SO YOU CAN RELAX.
             </p>
             <div className="hero-concrete-actions">
               <a href="#contact">
@@ -83,55 +83,53 @@ const Home = (props) => {
         </section>
         <section id="services" className="expertise-grid">
           <div className="expertise-container">
-            <h2 className="expertise-heading section-title">OUR EXPERTISE</h2>
+            <h2 className="expertise-heading section-title">HOW WE WORK</h2>
             <div className="expertise-layout">
               <div className="expertise-card">
                 <div className="expertise-card-image">
                   <img
-                    alt="Concrete Driveways"
-                    src="https://images.pexels.com/photos/33405139/pexels-photo-33405139.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Job evaluation — reviewing junk removal project details"
+                    src="https://images.pexels.com/photos/7681090/pexels-photo-7681090.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     loading="lazy"
                   />
                 </div>
                 <div className="expertise-card-content">
-                  <h3 className="section-subtitle">CONCRETE DRIVEWAYS</h3>
+                  <h3 className="section-subtitle">01. JOB EVALUATION</h3>
                   <p className="section-content">
-                    Durable, load-bearing residential and commercial driveways
-                    poured to withstand heavy daily use.
+                    We review photos or a quick description, estimate volume and
+                    labor, and give you a clear price range before we schedule.
                   </p>
                 </div>
               </div>
               <div className="expertise-card">
                 <div className="expertise-card-image">
                   <img
-                    alt="Pathways &amp; Sidewalks"
-                    src="https://images.pexels.com/photos/37121407/pexels-photo-37121407.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="In-person meeting — walkthrough for junk removal quote"
+                    src="https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     loading="lazy"
                   />
                 </div>
                 <div className="expertise-card-content">
-                  <h3 className="section-subtitle">PATHWAYS &amp; SIDEWALKS</h3>
+                  <h3 className="section-subtitle">02. IN-PERSON MEETING</h3>
                   <p className="section-content">
-                    Precision-leveled walkways designed for safety, drainage,
-                    and long-lasting curb appeal.
+                    We walk the property together, confirm access and what stays
+                    or goes, then lock in a firm quote and pickup window.
                   </p>
                 </div>
               </div>
               <div className="expertise-card">
                 <div className="expertise-card-image">
                   <img
-                    alt="Custom Slabs &amp; Forming"
-                    src="https://images.pexels.com/photos/37121398/pexels-photo-37121398.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+                    alt="Job completion — junk loaded and space cleared"
+                    src="https://images.pexels.com/photos/5025669/pexels-photo-5025669.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                     loading="lazy"
                   />
                 </div>
                 <div className="expertise-card-content">
-                  <h3 className="section-subtitle">
-                    CUSTOM SLABS &amp; FORMING
-                  </h3>
+                  <h3 className="section-subtitle">03. JOB COMPLETION</h3>
                   <p className="section-content">
-                    Foundations, retaining walls, and specialized commercial
-                    pours tailored to exact engineering specs.
+                    Crew loads out fast, sweeps the area, and disposes or donates
+                    items responsibly so you&apos;re left with a clean space.
                   </p>
                 </div>
               </div>
@@ -145,47 +143,31 @@ const Home = (props) => {
           <div className="gallery-scroller">
             <div className="gallery-item">
               <img
-                alt="Commercial Slab Pour"
+                alt="PHX Junk Removal project photo 1"
                 src="https://images.pexels.com/photos/37121405/pexels-photo-37121405.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 loading="lazy"
               />
-              <div className="gallery-item-overlay">
-                <span className="gallery-item-caption">
-                  COMMERCIAL SLAB POUR
-                </span>
-              </div>
             </div>
             <div className="gallery-item">
               <img
-                alt="Residential Driveway"
+                alt="PHX Junk Removal project photo 2"
                 src="https://images.pexels.com/photos/37121400/pexels-photo-37121400.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 loading="lazy"
               />
-              <div className="gallery-item-overlay">
-                <span className="gallery-item-caption">
-                  RESIDENTIAL DRIVEWAY
-                </span>
-              </div>
             </div>
             <div className="gallery-item">
               <img
-                alt="Precision Leveling"
+                alt="PHX Junk Removal project photo 3"
                 src="https://images.pexels.com/photos/37121406/pexels-photo-37121406.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 loading="lazy"
               />
-              <div className="gallery-item-overlay">
-                <span className="gallery-item-caption">PRECISION LEVELING</span>
-              </div>
             </div>
             <div className="gallery-item">
               <img
-                alt="Foundation Work"
+                alt="PHX Junk Removal project photo 4"
                 src="https://images.pexels.com/photos/2469/building-construction-building-site-constructing.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 loading="lazy"
               />
-              <div className="gallery-item-overlay">
-                <span className="gallery-item-caption">FOUNDATION WORK</span>
-              </div>
             </div>
           </div>
         </section>
@@ -489,91 +471,6 @@ const Home = (props) => {
             </form>
           </div>
         </section>
-        <section className="process-section">
-          <div className="process-container">
-            <div className="process-stepper">
-              <div className="process-step">
-                <div className="process-icon-wrapper">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <g
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="m15 12l-9.373 9.373a1 1 0 0 1-3.001-3L12 9m6 6l4-4"></path>
-                      <path d="m21.5 11.5l-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5"></path>
-                    </g>
-                  </svg>
-                </div>
-                <h3 className="section-subtitle">01. JOB EVALUATION</h3>
-                <p className="section-content">
-                  We review photos or a quick description, estimate volume and
-                  labor, and give you a clear price range before we schedule.
-                </p>
-              </div>
-              <div className="process-step">
-                <div className="process-icon-wrapper">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <g
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2m10 0H9m10 0h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path>
-                      <circle r="2" cx="17" cy="18"></circle>
-                      <circle r="2" cx="7" cy="18"></circle>
-                    </g>
-                  </svg>
-                </div>
-                <h3 className="section-subtitle">02. IN-PERSON MEETING</h3>
-                <p className="section-content">
-                  We walk the property together, confirm access and what stays or
-                  goes, then lock in a firm quote and pickup window.
-                </p>
-              </div>
-              <div className="process-step">
-                <div className="process-icon-wrapper">
-                  <svg
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <g
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    >
-                      <circle r="10" cx="12" cy="12"></circle>
-                      <path d="m9 12l2 2l4-4"></path>
-                    </g>
-                  </svg>
-                </div>
-                <h3 className="section-subtitle">03. JOB COMPLETION</h3>
-                <p className="section-content">
-                  Crew loads out fast, sweeps the area, and disposes or donates
-                  items responsibly so you&apos;re left with a clean space.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
         <section className="testimonials-section">
           <div className="testimonials-container">
             <div className="testimonials-header">
@@ -708,7 +605,7 @@ const Home = (props) => {
     })
   }, observerOptions)
 
-  document.querySelectorAll(".expertise-card, .process-step, .testimonial-card").forEach((el) => {
+  document.querySelectorAll(".expertise-card, .testimonial-card").forEach((el) => {
     el.style.opacity = "0"
     el.style.transform = "translateY(20px)"
     el.style.transition = "all 0.5s ease-out"
