@@ -1935,14 +1935,14 @@
   text-decoration: none;
 }
 .navigation-brand-logo {
-  height: 152px;
+  height: auto;
+  max-height: 72px;
   width: auto;
-  max-width: 540px;
+  max-width: 160px;
   display: block;
   object-fit: contain;
   flex-shrink: 0;
-  filter: brightness(0) invert(1)
-    drop-shadow(0 1px 3px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.5));
 }
 .footer-brand-row {
   gap: 16px;
@@ -1951,14 +1951,14 @@
   margin-bottom: var(--spacing-md);
 }
 .footer-brand-logo {
-  height: 210px;
+  height: auto;
+  max-height: 160px;
   width: auto;
-  max-width: 600px;
+  max-width: min(280px, 100%);
   display: block;
   object-fit: contain;
   flex-shrink: 0;
-  filter: brightness(0) invert(1)
-    drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.45));
 }
 
 /* ---------- NAVIGATION ---------- */
@@ -2046,14 +2046,13 @@
   flex-wrap: wrap;
 }
 .hero-concrete-logo {
-  height: clamp(158px, 27vw, 300px);
+  height: clamp(200px, 36vw, 380px);
   width: auto;
-  max-width: min(680px, 95vw);
+  max-width: min(420px, 92vw);
   display: block;
   object-fit: contain;
   background: transparent;
-  filter: brightness(0) invert(1)
-    drop-shadow(0 3px 12px rgba(0, 0, 0, 0.55));
+  filter: drop-shadow(0 4px 18px rgba(0, 0, 0, 0.55));
 }
 .hero-concrete-main-title {
   font-size: clamp(2rem, 5.5vw, 4.25rem) !important;
@@ -2838,8 +2837,8 @@ video {
     gap: 12px;
   }
   .navigation-brand-logo {
-    height: 112px;
-    max-width: 380px;
+    max-height: 58px;
+    max-width: 130px;
   }
   .navigation-logo-text {
     font-size: 0.78rem;
@@ -2949,8 +2948,9 @@ video {
     gap: 14px;
   }
   .hero-concrete-logo {
-    height: 176px;
-    max-width: 500px;
+    height: auto;
+    max-height: 260px;
+    max-width: min(360px, 88vw);
   }
   .hero-concrete-main-title {
     font-size: clamp(1.6rem, 8vw, 2.4rem) !important;
@@ -3207,8 +3207,9 @@ video {
     gap: 12px;
   }
   .footer-brand-logo {
-    height: 148px;
-    max-width: 460px;
+    height: auto;
+    max-height: 128px;
+    max-width: min(260px, 100%);
   }
   .footer-logo {
     font-size: 1.1rem;
@@ -3250,15 +3251,16 @@ video {
     max-width: 50vw;
   }
   .navigation-brand-logo {
-    height: 86px;
-    max-width: 280px;
+    max-height: 52px;
+    max-width: 115px;
   }
   .hero-concrete-main-title {
     font-size: 1.35rem !important;
   }
   .hero-concrete-logo {
-    height: 152px;
-    max-width: 420px;
+    height: auto;
+    max-height: 220px;
+    max-width: min(300px, 90vw);
   }
   .hero-concrete-sub {
     font-size: 0.78rem;

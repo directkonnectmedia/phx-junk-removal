@@ -11,7 +11,7 @@ class CustomDocument extends Document {
           ></meta>
           <link
             rel="icon"
-            href="/ropers-logo.png"
+            href="/phx-logo.png"
             type="image/png"
           ></link>
           <meta name="theme-color" content="#d4af37"></meta>

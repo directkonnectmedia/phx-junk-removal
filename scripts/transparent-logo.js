@@ -5,7 +5,7 @@ const path = require('path')
 const { Jimp } = require('jimp')
 
 async function main() {
-  const file = process.env.LOGO_PNG || 'ropers-logo.png'
+  const file = process.env.LOGO_PNG || 'phx-logo.png'
   const inPath = path.resolve(__dirname, '..', 'public', file)
   const outPath = inPath
 

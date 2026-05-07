@@ -13,7 +13,7 @@ const Footer = (props) => {
               <div className="footer-brand footer-column">
                 <div className="footer-brand-row">
                   <img
-                    src="/ropers-logo.png"
+                    src="/phx-logo.png"
                     alt="PHX Junk Removal logo"
                     className="footer-brand-logo"
                   />
