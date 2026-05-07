@@ -2132,7 +2132,7 @@
   border-color: var(--qc-text);
 }
 
-/* ---------- HOW WE WORK (expertise card layout) ---------- */
+/* ---------- EXPERTISE / HOW IT WORKS ---------- */
 .expertise-grid {
   background-color: var(--qc-charcoal);
 }
@@ -2163,9 +2163,37 @@
   color: var(--qc-text);
 }
 
+/* ---------- HOW IT WORKS (text-only, tight spacing) ---------- */
+.expertise-how-it-works {
+  padding: clamp(1.5rem, 3.5vw, 2.5rem) 0 !important;
+}
+.expertise-how-it-works .expertise-container {
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+.expertise-how-it-works .expertise-heading {
+  margin-bottom: clamp(0.85rem, 2vw, 1.35rem);
+}
+.expertise-how-it-works .expertise-layout {
+  gap: clamp(14px, 2vw, 22px);
+  align-items: stretch;
+}
+.expertise-how-it-works .expertise-card {
+  display: flex;
+  flex-direction: column;
+}
+.expertise-how-it-works .expertise-card-content {
+  flex: 1;
+  min-height: clamp(170px, 24vw, 240px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 /* ---------- GALLERY ---------- */
 .gallery-preview {
   background-color: var(--qc-gallery-bg);
+  border-bottom: 4px solid var(--qc-red);
 }
 .gallery-title {
   color: var(--qc-black);
@@ -2178,6 +2206,7 @@
   border: 3px solid var(--qc-red);
   overflow: hidden;
   box-sizing: border-box;
+  background-color: #000000;
 }
 .gallery-item img {
   display: block;
@@ -2525,6 +2554,7 @@
 .testimonials-section {
   background-color: var(--qc-gallery-bg);
   padding: var(--spacing-4xl) 0;
+  border-bottom: 4px solid var(--qc-red);
 }
 .testimonials-header {
   text-align: center;
@@ -2999,6 +3029,9 @@ video {
   .location-section {
     padding: 56px 0;
   }
+  .expertise-grid.expertise-how-it-works {
+    padding: 40px 0 !important;
+  }
   .expertise-container,
   .testimonials-container,
   .location-container {
@@ -3009,6 +3042,10 @@ video {
   .expertise-layout {
     grid-template-columns: 1fr;
     gap: 16px;
+  }
+  .expertise-how-it-works .expertise-card-content {
+    min-height: 140px;
+    padding: var(--spacing-2xl);
   }
   .expertise-card-image {
     aspect-ratio: 16 / 10;

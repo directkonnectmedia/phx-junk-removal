@@ -19,10 +19,10 @@ const Home = (props) => {
         <section id="home" className="hero-concrete">
           <div className="hero-concrete-bg">
             <video
-              src="https://videos.pexels.com/video-files/8488114/8488114-uhd_2560_1440_30fps.mp4"
+              src="https://assets.mixkit.co/videos/49210/49210-720.mp4"
               loop={true}
               muted={true}
-              poster="https://images.pexels.com/videos/8488114/pictures/preview-0.jpg"
+              poster="https://assets.mixkit.co/videos/49210/49210-thumb-720-3.jpg"
               autoPlay={true}
               playsInline={true}
               className="hero-concrete-video"
@@ -81,18 +81,11 @@ const Home = (props) => {
             </a>
           </div>
         </section>
-        <section id="services" className="expertise-grid">
+        <section id="services" className="expertise-grid expertise-how-it-works">
           <div className="expertise-container">
-            <h2 className="expertise-heading section-title">HOW WE WORK</h2>
+            <h2 className="expertise-heading section-title">HOW IT WORKS</h2>
             <div className="expertise-layout">
               <div className="expertise-card">
-                <div className="expertise-card-image">
-                  <img
-                    alt="Job evaluation — reviewing junk removal project details"
-                    src="https://images.pexels.com/photos/7681090/pexels-photo-7681090.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    loading="lazy"
-                  />
-                </div>
                 <div className="expertise-card-content">
                   <h3 className="section-subtitle">01. JOB EVALUATION</h3>
                   <p className="section-content">
@@ -102,13 +95,6 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="expertise-card">
-                <div className="expertise-card-image">
-                  <img
-                    alt="In-person meeting — walkthrough for junk removal quote"
-                    src="https://images.pexels.com/photos/6476589/pexels-photo-6476589.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    loading="lazy"
-                  />
-                </div>
                 <div className="expertise-card-content">
                   <h3 className="section-subtitle">02. IN-PERSON MEETING</h3>
                   <p className="section-content">
@@ -118,13 +104,6 @@ const Home = (props) => {
                 </div>
               </div>
               <div className="expertise-card">
-                <div className="expertise-card-image">
-                  <img
-                    alt="Job completion — junk loaded and space cleared"
-                    src="https://images.pexels.com/photos/5025669/pexels-photo-5025669.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    loading="lazy"
-                  />
-                </div>
                 <div className="expertise-card-content">
                   <h3 className="section-subtitle">03. JOB COMPLETION</h3>
                   <p className="section-content">
@@ -168,6 +147,69 @@ const Home = (props) => {
                 src="https://images.pexels.com/photos/2469/building-construction-building-site-constructing.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
                 loading="lazy"
               />
+            </div>
+          </div>
+        </section>
+        <section className="testimonials-section">
+          <div className="testimonials-container">
+            <div className="testimonials-header">
+              <span className="testimonials-eyebrow">CLIENT VOICES</span>
+              <h2 className="testimonials-heading section-title">
+                CLIENT REVIEWS
+              </h2>
+              <p className="testimonials-subtitle">
+                Trusted by Arizona homeowners.
+              </p>
+            </div>
+            <div className="testimonials-grid">
+              <figure className="testimonial-card">
+                <span className="testimonial-quote-mark">&ldquo;</span>
+                <blockquote className="testimonial-quote">
+                  PHX Junk Removal cleared our retail back room in one morning.
+                  Heavy fixtures, pallets, and old displays — all gone. Fair
+                  price and the crew was careful with our floors.
+                </blockquote>
+                <figcaption className="testimonial-meta">
+                  <span className="testimonial-author">MARK R.</span>
+                  <span className="testimonial-role">Retail Manager</span>
+                </figcaption>
+              </figure>
+              <figure className="testimonial-card">
+                <span className="testimonial-quote-mark">&ldquo;</span>
+                <blockquote className="testimonial-quote">
+                  Best cleanout we&apos;ve had after a garage and patio
+                  overhaul. They showed up on time, separated donate-able items,
+                  and left the driveway cleaner than they found it.
+                </blockquote>
+                <figcaption className="testimonial-meta">
+                  <span className="testimonial-author">SARAH L.</span>
+                  <span className="testimonial-role">Homeowner, Scottsdale</span>
+                </figcaption>
+              </figure>
+              <figure className="testimonial-card">
+                <span className="testimonial-quote-mark">&ldquo;</span>
+                <blockquote className="testimonial-quote">
+                  Professional from the first call to the last box on the truck.
+                  They handled a full estate cleanout with empathy and zero
+                  surprise fees — exactly what our family needed.
+                </blockquote>
+                <figcaption className="testimonial-meta">
+                  <span className="testimonial-author">DAVID K.</span>
+                  <span className="testimonial-role">Estate Coordinator</span>
+                </figcaption>
+              </figure>
+              <figure className="testimonial-card">
+                <span className="testimonial-quote-mark">&ldquo;</span>
+                <blockquote className="testimonial-quote">
+                  We&apos;ve used PHX Junk Removal on three rental turnovers.
+                  Fast response, consistent pricing, and they actually show up
+                  when they say they will. Our go-to in the Valley.
+                </blockquote>
+                <figcaption className="testimonial-meta">
+                  <span className="testimonial-author">JASON M.</span>
+                  <span className="testimonial-role">Property Manager</span>
+                </figcaption>
+              </figure>
             </div>
           </div>
         </section>
@@ -469,69 +511,6 @@ const Home = (props) => {
                 </div>
               </div>
             </form>
-          </div>
-        </section>
-        <section className="testimonials-section">
-          <div className="testimonials-container">
-            <div className="testimonials-header">
-              <span className="testimonials-eyebrow">CLIENT VOICES</span>
-              <h2 className="testimonials-heading section-title">
-                CLIENT REVIEWS
-              </h2>
-              <p className="testimonials-subtitle">
-                Trusted by Arizona homeowners.
-              </p>
-            </div>
-            <div className="testimonials-grid">
-              <figure className="testimonial-card">
-                <span className="testimonial-quote-mark">&ldquo;</span>
-                <blockquote className="testimonial-quote">
-                  PHX Junk Removal cleared our retail back room in one morning.
-                  Heavy fixtures, pallets, and old displays — all gone. Fair
-                  price and the crew was careful with our floors.
-                </blockquote>
-                <figcaption className="testimonial-meta">
-                  <span className="testimonial-author">MARK R.</span>
-                  <span className="testimonial-role">Retail Manager</span>
-                </figcaption>
-              </figure>
-              <figure className="testimonial-card">
-                <span className="testimonial-quote-mark">&ldquo;</span>
-                <blockquote className="testimonial-quote">
-                  Best cleanout we&apos;ve had after a garage and patio
-                  overhaul. They showed up on time, separated donate-able items,
-                  and left the driveway cleaner than they found it.
-                </blockquote>
-                <figcaption className="testimonial-meta">
-                  <span className="testimonial-author">SARAH L.</span>
-                  <span className="testimonial-role">Homeowner, Scottsdale</span>
-                </figcaption>
-              </figure>
-              <figure className="testimonial-card">
-                <span className="testimonial-quote-mark">&ldquo;</span>
-                <blockquote className="testimonial-quote">
-                  Professional from the first call to the last box on the truck.
-                  They handled a full estate cleanout with empathy and zero
-                  surprise fees — exactly what our family needed.
-                </blockquote>
-                <figcaption className="testimonial-meta">
-                  <span className="testimonial-author">DAVID K.</span>
-                  <span className="testimonial-role">Estate Coordinator</span>
-                </figcaption>
-              </figure>
-              <figure className="testimonial-card">
-                <span className="testimonial-quote-mark">&ldquo;</span>
-                <blockquote className="testimonial-quote">
-                  We&apos;ve used PHX Junk Removal on three rental turnovers.
-                  Fast response, consistent pricing, and they actually show up
-                  when they say they will. Our go-to in the Valley.
-                </blockquote>
-                <figcaption className="testimonial-meta">
-                  <span className="testimonial-author">JASON M.</span>
-                  <span className="testimonial-role">Property Manager</span>
-                </figcaption>
-              </figure>
-            </div>
           </div>
         </section>
         <section className="location-section">
