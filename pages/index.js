@@ -194,8 +194,8 @@ const Home = (props) => {
             <div className="quote-wizard-header">
               <h2 className="section-title">GET A QUOTE</h2>
               <p className="section-content">
-                Arizona&apos;s premier concrete specialists. Tell us about your
-                project — one step at a time.
+                Arizona&apos;s trusted junk removal team. Tell us what you need
+                hauled — one step at a time.
               </p>
             </div>
             <div className="quote-progress">
@@ -223,17 +223,17 @@ const Home = (props) => {
             >
               <div className="quote-step is-active" data-step="1">
                 <span className="quote-step-label">
-                  STEP 1: WHAT DO YOU NEED POURED?
+                  STEP 1: WHAT KIND OF SERVICE DO YOU NEED?
                 </span>
                 <p className="quote-step-hint">
-                  Select the service that best matches your project.
+                  Select the option that best matches your cleanout or haul-away.
                 </p>
                 <div className="quote-card-grid">
                   <label className="quote-service-card">
                     <input
                       type="radio"
                       name="service"
-                      value="driveway"
+                      value="residential"
                       required
                     />
                     <div className="quote-service-card-inner">
@@ -252,14 +252,14 @@ const Home = (props) => {
                           <path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6" />
                         </svg>
                       </span>
-                      <span className="quote-service-title">DRIVEWAYS</span>
+                      <span className="quote-service-title">RESIDENTIAL SERVICE</span>
                       <span className="quote-service-desc">
-                        Residential & commercial driveway pours
+                        Homes, garages, yards &amp; single-item pickups
                       </span>
                     </div>
                   </label>
                   <label className="quote-service-card">
-                    <input type="radio" name="service" value="pathway" />
+                    <input type="radio" name="service" value="commercial" />
                     <div className="quote-service-card-inner">
                       <span className="quote-service-icon">
                         <svg
@@ -276,9 +276,9 @@ const Home = (props) => {
                           <path d="M4 20l8-16 8 16M8 20l4-8 4 8" />
                         </svg>
                       </span>
-                      <span className="quote-service-title">PATHWAYS</span>
+                      <span className="quote-service-title">COMMERCIAL SERVICE</span>
                       <span className="quote-service-desc">
-                        Walkways, sidewalks & patio paths
+                        Offices, retail, warehouses &amp; job-site debris
                       </span>
                     </div>
                   </label>
@@ -301,9 +301,6 @@ const Home = (props) => {
                         </svg>
                       </span>
                       <span className="quote-service-title">CUSTOM WORK</span>
-                      <span className="quote-service-desc">
-                        Slabs, foundations & specialty pours
-                      </span>
                     </div>
                   </label>
                 </div>
@@ -371,7 +368,7 @@ const Home = (props) => {
                     </label>
                     <textarea
                       name="details"
-                      placeholder="Tell us about your project — sq. ft., location, finish, anything else..."
+                      placeholder="What needs to be removed, approximate volume, access (stairs, gate), and any donation or recycle preferences…"
                       className="quote-input quote-textarea"
                     ></textarea>
                   </div>
@@ -400,7 +397,7 @@ const Home = (props) => {
               <div className="quote-step" data-step="3">
                 <span className="quote-step-label">STEP 3: TIMELINE</span>
                 <p className="quote-step-hint">
-                  When are you looking to break ground?
+                  When do you need items removed?
                 </p>
                 <div className="quote-timeline-grid">
                   <label className="quote-timeline-card">
@@ -494,9 +491,6 @@ const Home = (props) => {
         </section>
         <section className="process-section">
           <div className="process-container">
-            <h2 className="section-title process-heading">
-              POURED WITH PRECISION
-            </h2>
             <div className="process-stepper">
               <div className="process-step">
                 <div className="process-icon-wrapper">
@@ -518,10 +512,10 @@ const Home = (props) => {
                     </g>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">01. SITE PREP</h3>
+                <h3 className="section-subtitle">01. JOB EVALUATION</h3>
                 <p className="section-content">
-                  Excavation and subgrade compaction to ensure a solid
-                  foundation.
+                  We review photos or a quick description, estimate volume and
+                  labor, and give you a clear price range before we schedule.
                 </p>
               </div>
               <div className="process-step">
@@ -545,9 +539,10 @@ const Home = (props) => {
                     </g>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">02. FORMING &amp; REBAR</h3>
+                <h3 className="section-subtitle">02. IN-PERSON MEETING</h3>
                 <p className="section-content">
-                  Structural reinforcement engineered for maximum load capacity.
+                  We walk the property together, confirm access and what stays or
+                  goes, then lock in a firm quote and pickup window.
                 </p>
               </div>
               <div className="process-step">
@@ -570,10 +565,10 @@ const Home = (props) => {
                     </g>
                   </svg>
                 </div>
-                <h3 className="section-subtitle">03. POUR &amp; FINISH</h3>
+                <h3 className="section-subtitle">03. JOB COMPLETION</h3>
                 <p className="section-content">
-                  Expert troweling and curing for a rock-solid, professional
-                  finish.
+                  Crew loads out fast, sweeps the area, and disposes or donates
+                  items responsibly so you&apos;re left with a clean space.
                 </p>
               </div>
             </div>
@@ -584,59 +579,59 @@ const Home = (props) => {
             <div className="testimonials-header">
               <span className="testimonials-eyebrow">CLIENT VOICES</span>
               <h2 className="testimonials-heading section-title">
-                CONCRETE TESTIMONIALS
+                CLIENT REVIEWS
               </h2>
               <p className="testimonials-subtitle">
-                Trusted by Arizona homeowners, builders, and commercial
-                operators.
+                Trusted by Arizona homeowners.
               </p>
             </div>
             <div className="testimonials-grid">
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  PHX Junk Removal handled our commercial warehouse slab
-                  perfectly. On time, on budget, and the finish is flawless.
-                  These guys know their concrete.
+                  PHX Junk Removal cleared our retail back room in one morning.
+                  Heavy fixtures, pallets, and old displays — all gone. Fair
+                  price and the crew was careful with our floors.
                 </blockquote>
                 <figcaption className="testimonial-meta">
                   <span className="testimonial-author">MARK R.</span>
-                  <span className="testimonial-role">Commercial Client</span>
+                  <span className="testimonial-role">Retail Manager</span>
                 </figcaption>
               </figure>
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  Best driveway pour in Northern Arizona. They didn&apos;t just pour
-                  mud; they engineered a path that looks incredible and handles
-                  the heat without cracking.
+                  Best cleanout we&apos;ve had after a garage and patio
+                  overhaul. They showed up on time, separated donate-able items,
+                  and left the driveway cleaner than they found it.
                 </blockquote>
                 <figcaption className="testimonial-meta">
                   <span className="testimonial-author">SARAH L.</span>
-                  <span className="testimonial-role">Residential Owner</span>
+                  <span className="testimonial-role">Homeowner, Scottsdale</span>
                 </figcaption>
               </figure>
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  Rugged, reliable, and professional. The crew was efficient
-                  and the custom forming work exceeded our engineering specs.
+                  Professional from the first call to the last box on the truck.
+                  They handled a full estate cleanout with empathy and zero
+                  surprise fees — exactly what our family needed.
                 </blockquote>
                 <figcaption className="testimonial-meta">
                   <span className="testimonial-author">DAVID K.</span>
-                  <span className="testimonial-role">Site Manager</span>
+                  <span className="testimonial-role">Estate Coordinator</span>
                 </figcaption>
               </figure>
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  We&apos;ve used PHX Junk Removal for three different properties.
-                  Their consistency and attention to structural integrity is
-                  why we keep coming back.
+                  We&apos;ve used PHX Junk Removal on three rental turnovers.
+                  Fast response, consistent pricing, and they actually show up
+                  when they say they will. Our go-to in the Valley.
                 </blockquote>
                 <figcaption className="testimonial-meta">
                   <span className="testimonial-author">JASON M.</span>
-                  <span className="testimonial-role">Property Developer</span>
+                  <span className="testimonial-role">Property Manager</span>
                 </figcaption>
               </figure>
             </div>

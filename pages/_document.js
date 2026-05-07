@@ -14,7 +14,7 @@ class CustomDocument extends Document {
             href="/phx-logo.png"
             type="image/png"
           ></link>
-          <meta name="theme-color" content="#d4af37"></meta>
+          <meta name="theme-color" content="#f97316"></meta>
           <meta name="format-detection" content="telephone=no"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
           <style
