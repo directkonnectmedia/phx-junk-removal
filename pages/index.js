@@ -12,8 +12,8 @@ const Home = (props) => {
     <>
       <div className="home-container1">
         <Head>
-          <title>Roper&apos;s Concrete LLC</title>
-          <meta property="og:title" content="Roper's Concrete LLC" />
+          <title>PHX Junk Removal</title>
+          <meta property="og:title" content="PHX Junk Removal" />
         </Head>
         <Navigation></Navigation>
         <section id="home" className="hero-concrete">
@@ -33,11 +33,11 @@ const Home = (props) => {
             <div className="hero-concrete-brand">
               <img
                 src="/ropers-logo.png"
-                alt="Roper&apos;s Concrete LLC logo"
+                alt="PHX Junk Removal logo"
                 className="hero-concrete-logo"
               />
               <h1 className="hero-concrete-main-title hero-title">
-                ROPER&apos;S CONCRETE, LLC
+                PHX JUNK REMOVAL
               </h1>
             </div>
             <p className="hero-concrete-sub hero-subtitle">
@@ -55,7 +55,7 @@ const Home = (props) => {
                 </div>
               </a>
             </div>
-            <a href="tel:9282414694" className="hero-concrete-phone-link">
+            <a href="tel:623300447" className="hero-concrete-phone-link">
               <div className="hero-concrete-phone">
                 <span className="hero-concrete-phone-icon">
                   <svg
@@ -75,7 +75,7 @@ const Home = (props) => {
                   </svg>
                 </span>
                 <span className="hero-concrete-phone-text">
-                  CALL NOW: 928-241-4694
+                  CALL NOW: 623-300-447
                 </span>
               </div>
             </a>
@@ -360,7 +360,7 @@ const Home = (props) => {
                       <input
                         type="tel"
                         name="phone"
-                        placeholder="(928) 555-0123"
+                        placeholder="(623) 300-447"
                         className="quote-input"
                       />
                     </div>
@@ -484,8 +484,8 @@ const Home = (props) => {
                     Thank you. We&apos;ll be in touch within 24 hours to
                     confirm details and schedule a free on-site estimate.
                   </p>
-                  <a href="tel:9282414694" className="quote-success-phone">
-                    Or call us now: 928-241-4694
+                  <a href="tel:623300447" className="quote-success-phone">
+                    Or call us now: 623-300-447
                   </a>
                 </div>
               </div>
@@ -595,7 +595,7 @@ const Home = (props) => {
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  Roper&apos;s Concrete handled our commercial warehouse slab
+                  PHX Junk Removal handled our commercial warehouse slab
                   perfectly. On time, on budget, and the finish is flawless.
                   These guys know their concrete.
                 </blockquote>
@@ -630,7 +630,7 @@ const Home = (props) => {
               <figure className="testimonial-card">
                 <span className="testimonial-quote-mark">&ldquo;</span>
                 <blockquote className="testimonial-quote">
-                  We&apos;ve used Roper&apos;s for three different properties.
+                  We&apos;ve used PHX Junk Removal for three different properties.
                   Their consistency and attention to structural integrity is
                   why we keep coming back.
                 </blockquote>
@@ -648,14 +648,13 @@ const Home = (props) => {
               <div className="location-content">
                 <span className="location-eyebrow">SERVICE AREA</span>
                 <h2 className="section-title location-title">
-                  SERVING NORTHERN ARIZONA
+                  SERVING GREATER PHOENIX
                 </h2>
                 <p className="location-description">
-                  Arizona&apos;s premier concrete specialists. Based in the 928,
-                  we cover Flagstaff, Sedona, Prescott, Williams, and surrounding
-                  communities.
+                  Arizona&apos;s trusted junk removal team. Based in Phoenix, we
+                  cover the Valley and surrounding communities.
                 </p>
-                <a href="tel:9282414694" className="location-phone-link">
+                <a href="tel:623300447" className="location-phone-link">
                   <span className="location-phone-icon">
                     <svg
                       width="22"
@@ -671,7 +670,7 @@ const Home = (props) => {
                       <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233a14 14 0 0 0 6.392 6.384" />
                     </svg>
                   </span>
-                  <span className="location-phone">928-241-4694</span>
+                  <span className="location-phone">623-300-447</span>
                 </a>
                 <p className="location-status">
                   Licensed, Bonded &amp; Insured
@@ -700,7 +699,7 @@ const Home = (props) => {
         <div className="home-container4">
           <div className="home-container5">
             <Script
-              html={`<script defer data-name="ropers-logic">
+              html={`<script defer data-name="phx-junk-logic">
 (function(){
   // Reveal-on-scroll for cards
   const observerOptions = { threshold: 0.1 }

@@ -14,23 +14,23 @@ const Footer = (props) => {
                 <div className="footer-brand-row">
                   <img
                     src="/ropers-logo.png"
-                    alt="Roper&apos;s Concrete LLC logo"
+                    alt="PHX Junk Removal logo"
                     className="footer-brand-logo"
                   />
                   <h2 className="footer-logo section-title">
-                    ROPER&apos;S CONCRETE, LLC
+                    PHX JUNK REMOVAL
                   </h2>
                 </div>
                 <p className="footer-mission section-content">
-                  Arizona&apos;s premier concrete specialists. Commercial and
-                  Residential. We pour it right the first time. 100% dedicated
-                  to the craft of heavy-duty concrete engineering.
+                  Arizona&apos;s trusted junk removal team. Commercial and
+                  residential. Fast, thorough cleanouts with same-day options when
+                  available. Licensed and insured.
                 </p>
               </div>
               <div className="footer-column footer-contact">
                 <h3 className="footer-heading">CONTACT US</h3>
                 <div className="footer-contact-info">
-                  <a href="tel:9282414694">
+                  <a href="tel:623300447">
                     <div className="footer-phone-link">
                       <span className="footer-icon-wrapper">
                         <svg
@@ -49,7 +49,7 @@ const Footer = (props) => {
                           ></path>
                         </svg>
                       </span>
-                      <span>928-241-4694</span>
+                      <span>623-300-447</span>
                     </div>
                   </a>
                   <a href="mailto:info@ropersconcrete.com">
@@ -97,7 +97,7 @@ const Footer = (props) => {
                       </svg>
                     </span>
                     <p className="section-content footer-address-text">
-                      Serving Northern Arizona &amp; Surrounding Communities (928)
+                      Serving Greater Phoenix &amp; Surrounding Communities (623)
                     </p>
                   </div>
                 </div>
@@ -208,7 +208,7 @@ const Footer = (props) => {
               <div className="footer-divider"></div>
               <div className="footer-legal">
                 <p>
-                  © 2026 Roper&apos;s Concrete, LLC. All Rights Reserved. Licensed,
+                  © 2026 PHX Junk Removal. All Rights Reserved. Licensed,
                   Bonded &amp; Insured.
                 </p>
               </div>

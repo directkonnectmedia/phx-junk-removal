@@ -15,11 +15,11 @@ const Navigation = (props) => {
                 <div className="navigation-brand">
                   <img
                     src="/ropers-logo.png"
-                    alt="Roper&apos;s Concrete LLC logo"
+                    alt="PHX Junk Removal logo"
                     className="navigation-brand-logo"
                   />
                   <span className="navigation-logo-text">
-                    ROPER&apos;S CONCRETE, LLC
+                    PHX JUNK REMOVAL
                   </span>
                 </div>
               </a>
@@ -84,11 +84,11 @@ const Navigation = (props) => {
                 <div className="navigation-brand">
                   <img
                     src="/ropers-logo.png"
-                    alt="Roper&apos;s Concrete LLC logo"
+                    alt="PHX Junk Removal logo"
                     className="navigation-brand-logo"
                   />
                   <span className="navigation-logo-text">
-                    ROPER&apos;S CONCRETE, LLC
+                    PHX JUNK REMOVAL
                   </span>
                 </div>
               </a>
@@ -147,9 +147,9 @@ const Navigation = (props) => {
               <span className="navigation-mobile-contact-label">
                 DIRECT LINE
               </span>
-              <a href="tel:9282414694">
+              <a href="tel:623300447">
                 <div className="navigation-mobile-phone">
-                  <span>928-241-4694</span>
+                  <span>623-300-447</span>
                 </div>
               </a>
             </div>

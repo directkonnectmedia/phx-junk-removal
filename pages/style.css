@@ -1910,7 +1910,7 @@
 }
 
 /* ==========================================================================
-   ROPER'S CONCRETE — REVAMP OVERRIDES
+   PHX JUNK REMOVAL — REVAMP OVERRIDES
    Dark theme: black, white, gold. Industrial/rugged.
    ========================================================================== */
 
@@ -2612,7 +2612,7 @@
   text-transform: uppercase;
 }
 
-/* ---------- LOCATION (Northern Arizona / 928) — match footer palette ---------- */
+/* ---------- LOCATION (Greater Phoenix / 623) — match footer palette ---------- */
 .location-section {
   background-color: var(--qc-charcoal);
   padding: var(--spacing-4xl) 0;
