@@ -2192,8 +2192,11 @@
 
 /* ---------- GALLERY ---------- */
 .gallery-preview {
+  background-color: #000000;
+  border-bottom: 8px solid var(--qc-red);
+}
+.gallery-header {
   background-color: var(--qc-gallery-bg);
-  border-bottom: 4px solid var(--qc-red);
 }
 .gallery-title {
   color: var(--qc-black);
@@ -2221,10 +2224,13 @@
 .gallery-scroller {
   gap: 16px;
   padding: 0 20px 24px;
+  background-color: #000000;
 }
 .quote-wizard {
   background-color: var(--qc-gallery-bg);
   background-image: none;
+  border-top: 2px solid var(--qc-black);
+  border-bottom: 8px solid var(--qc-red);
 }
 .quote-wizard-container {
   background: var(--qc-charcoal);
@@ -2554,7 +2560,7 @@
 .testimonials-section {
   background-color: var(--qc-gallery-bg);
   padding: var(--spacing-4xl) 0;
-  border-bottom: 4px solid var(--qc-red);
+  border-bottom: 8px solid var(--qc-red);
 }
 .testimonials-header {
   text-align: center;
@@ -3066,6 +3072,7 @@ video {
     -webkit-overflow-scrolling: touch;
     padding: 0 16px;
     gap: 12px;
+    background-color: #000000;
   }
   .gallery-item {
     flex: 0 0 88vw;
